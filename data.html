@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="data.js"> </script>
+</head>
+<body class="container">
+<button type="button" class="btn btn-success" onclick="hello()">Employee Data</button>
+<button type="button" class="btn btn-primary" value="odd" onclick="hello(this.value)">Odd no.</button>
+<button type="button" class="btn btn-primary" value="even" onclick="hello(this.value)">Even no.</button>
+<button type="button" class="btn btn-danger" onclick="clear1()">Clear</button>
+<br>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Employee_number">
+  <div>
+	<button class="btn btn-outline-secondary" type="button" onclick="employeenumber()">Search</button>
+  </div>
+</div>
+
+<p  id="employeeData"></p>
+
+
+</body>
+</html>
